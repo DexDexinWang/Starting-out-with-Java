@@ -1,0 +1,40 @@
+/*Wrapper String Objects*/
+public class topic3 {
+	public String print()
+	{
+		return "1. The String class provides several methods for searching and working with String ojbects\n"
+				+ "2. substring, is commonly used to refer to a string that is part of another string.\n"
+				+ "3. Method: search for a substring:\n"
+				+ "boolean startWith(string str)\n"
+				+ "boolean endWith(string str)\n"
+				+ "boolean regionMatches(int start,String str, int start2, int n)\n"
+				+ "boolean retionMatches(boolean ignoreCase, int start, String str, int start2, int n)\n"
+				+ "4. Method: getting a character or substring`s location:\n"
+				+ "int indexOf(char ch)\n"
+				+ "int indexOf(char ch, int start)\n"
+				+ "int indexOf(String str)\n"
+				+ "int indexOf(String str, int start)\n"
+				+ "int lastIndexOf(char ch)\n"
+				+ "int lastIndexOf(char ch, int start)\n"
+				+ "int lastIndexOf(String str)\n"
+				+ "int lastIndexOf(String str,int start)\n"
+				+ "5. Method: extracting substrings:\n"
+				+ "String substring(int start)\n"
+				+ "String substring(int start, int end)\n"
+				+ "void getChars(int start, int end, char[] array, int arrayStart)\n"
+				+ "char[] toCharArray()\n"
+				+ "5. Method: return a modified copy of a String object:\n"
+				+ "String concat(String str)\n"
+				+ "String replace(char oldChar, char newChar)\n"
+				+ "String trim()\n"
+				+ "6. Method: returns a string representation of the value with an argument:\n"
+				+ "String valueOf(boolean b)\n"
+				+ "String valueOf(char c)\n"
+				+ "String valueOf(char[] array)\n"
+				+ "String valueOf(char[] array, int subscript, int count)\n"
+				+ "String valueOf(double number)\n"
+				+ "String valueOf(float number)\n"
+				+ "String valueOf(int number)\n"
+				+ "String valueOf(long number)\n";
+	}
+}
